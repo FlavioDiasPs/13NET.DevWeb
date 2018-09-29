@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Pergunta>
+@{
+    Layout = "_LayoutB";
+}
+
+<h1>ViewBag @ViewBag.Nome</h1>
+<h1>ViewData @ViewData["NomeDoAluno"]</h1>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <p>@item.Id</p>
+            <p>@item.Autor</p>
+            <p>@item.Descricao</p>
+        </li>
+    }
+</ul>
+
+<img src="~/brazzers.png" />    <br />
+<img src="~/salty.gif" />
+
+<p>Twitter @@Flavolho</p>
+
+@*<p>@Model.Id</p>
+<p>@Model.Autor</p>
+<p>@Model.Descricao</p>*@
+
+
+         
+
+
+
