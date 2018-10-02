@@ -9,6 +9,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.3" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" />
+    <PackageReference Include="serilog" Version="2.7.1" />
+    <PackageReference Include="serilog.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="serilog.sinks.logentries" Version="3.0.26" />
   </ItemGroup>
 
   <ItemGroup>
