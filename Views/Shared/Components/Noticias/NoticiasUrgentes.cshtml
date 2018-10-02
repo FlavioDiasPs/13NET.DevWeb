@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Aula01.ViewComponents.NoticiasViewComponent.Noticia>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li style="background-color:red">
+            @item.Titulo
+        </li>
+    }
+</ul>

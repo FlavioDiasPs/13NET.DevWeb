@@ -3,6 +3,10 @@
     Layout = "_LayoutB";
 }
 
+
+<vc:noticias total="10" noticias-urgentes="false"></vc:noticias>
+@*@await Component.InvokeAsync("Noticias", new { total = 3 });*@
+
 <h1>ViewBag @ViewBag.Nome</h1>
 <h1>ViewData @ViewData["NomeDoAluno"]</h1>
 
@@ -22,12 +26,13 @@
 
 <p>Twitter @@Flavolho</p>
 
+
 @*<p>@Model.Id</p>
-<p>@Model.Autor</p>
-<p>@Model.Descricao</p>*@
+    <p>@Model.Autor</p>
+    <p>@Model.Descricao</p>*@
 
 
-         
+
 
 
 
